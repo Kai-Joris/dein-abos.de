@@ -12,3 +12,7 @@ index:
     path: /
     controller: App\Controller\HomeController::index
     #tags: ['controller.service_arguments']
+
+listSubscriptions:
+    path: /subscriptions 
+    controller: App\Controller\SubscriptionsController::list 
